@@ -10,6 +10,17 @@ export const StyledPriceListComponent = styled.div`
   width: 279px;
   margin: 2rem;
   padding: 3rem;
+  @media only screen and (max-width: 1000px) {
+    width: 80%;
+    align-items: center;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    align-items: center;
+    height: auto;
+  }
 
   button {
     border: 2px solid black;
@@ -22,6 +33,10 @@ export const StyledPriceListComponent = styled.div`
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     display: flex;
+    @media only screen and (max-width: 1000px) {
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
   }
   h1 {
     margin-top: 1rem;

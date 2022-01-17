@@ -7,11 +7,18 @@ export const StyledImgContainer = styled.div`
   display: inline-block;
 `;
 export const StyledBg = styled.img`
-  display: block;
+  @media only screen and (max-width: 1745px) {
+    border-radius: 40px;
+    margin-left: 40rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    margin-left: 20rem;
+  }
+
   @media only screen and (max-width: 600px) {
     max-width: 400px;
     border-radius: 40px;
-    object-fit: contain;
+    margin-left: 0;
   }
 `;
 
@@ -23,6 +30,14 @@ export const StyledConversation = styled.div`
   position: absolute;
   top: 0%;
   left: -22%;
+  @media only screen and (max-width: 1745px) {
+    top: 10%;
+    left: 30%;
+  }
+  @media only screen and (max-width: 1000px) {
+    top: 10%;
+    left: 10%;
+  }
   @media only screen and (max-width: 600px) {
     top: -30%;
     left: 1%;

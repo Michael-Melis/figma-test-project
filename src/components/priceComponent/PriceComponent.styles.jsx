@@ -9,6 +9,10 @@ export const StyledPriceComponent = styled.div`
   background: #f5f5f7;
   border-radius: 15px;
   flex-wrap: wrap;
+  @media only screen and (max-width: 1133px) {
+    margin: 1rem 2rem;
+    flex-direction: column;
+  }
   @media only screen and (max-width: 600px) {
     margin: 1rem 2rem;
     flex-direction: column;
@@ -29,6 +33,11 @@ export const StyledParagraph = styled.p`
 
 export const StyledLeftPriceDiv = styled.div`
   margin: 1rem 2rem;
+  @media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 export const StyledPriceLists = styled.div`
   display: flex;

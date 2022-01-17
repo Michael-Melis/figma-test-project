@@ -10,6 +10,17 @@ export const StyledPriceListComponentRight = styled.div`
   width: 279px;
   margin: 2rem;
   padding: 0 2rem;
+  @media only screen and (max-width: 1000px) {
+    width: 80%;
+    align-items: center;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    align-items: center;
+    height: auto;
+  }
 
   img {
     padding-top: 1.5rem;
@@ -25,6 +36,10 @@ export const StyledPriceListComponentRight = styled.div`
     font-weight: 600;
     background: #fff;
     color: #050505;
+    @media only screen and (max-width: 1000px) {
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
   }
   h1 {
     font-size: 24px;

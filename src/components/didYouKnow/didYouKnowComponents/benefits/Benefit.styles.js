@@ -12,7 +12,7 @@ export const StyledImgBenefitContainer = styled.div`
 
 export const StyleBenefitElementBg = styled.img`
   @media only screen and (max-width: 600px) {
-    max-width: 410px;
+    max-width: 390px;
   }
 `;
 
