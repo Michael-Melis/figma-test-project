@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledPriceListComponent, StyledH1 } from "./PriceList.styles";
+import { StyledPriceListComponent } from "./PriceList.styles";
 import ticketSvg from "../../../svg/ticket.svg";
 
 const PriceList = ({ svg, name, text, price }) => {
