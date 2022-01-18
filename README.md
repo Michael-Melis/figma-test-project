@@ -1,1 +1,1 @@
-to run this appliacation use use "yarn" then "yarn start"
+to run this appliacation use "yarn" then "yarn start"
