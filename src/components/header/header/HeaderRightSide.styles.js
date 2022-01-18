@@ -13,10 +13,11 @@ export const StyledBg = styled.img`
   }
   @media only screen and (max-width: 1000px) {
     margin-left: 20rem;
+    max-width: 510px;
   }
 
   @media only screen and (max-width: 600px) {
-    max-width: 400px;
+    max-width: 410px;
     border-radius: 40px;
     margin-left: 0;
   }
@@ -35,7 +36,7 @@ export const StyledConversation = styled.div`
     left: 30%;
   }
   @media only screen and (max-width: 1000px) {
-    top: 10%;
+    top: -5%;
     left: 10%;
   }
   @media only screen and (max-width: 600px) {

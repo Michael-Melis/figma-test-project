@@ -8,8 +8,8 @@ export const StyledMainHeaderDiv = styled.div`
   margin-right: 5rem;
   @media only screen and (max-width: 1000px) {
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 8rem;
+    margin-right: 0;
   }
   @media only screen and (max-width: 600px) {
     margin-top: 3rem;
