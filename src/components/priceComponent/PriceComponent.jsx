@@ -20,7 +20,7 @@ const PriceComponent = () => {
           <br /> base software
         </StyledH1>
         <StyledParagraph>
-          Creating your own knowledge center doesn’t have
+          Creating your own knowledge center doesn`t have
           <br /> to be an expensive feat. LiveAgent offers multiple pricing plans that
           <br /> cater to all support needs. Get our standalone
           <br /> knowledge base software with the least expensive plan or take
