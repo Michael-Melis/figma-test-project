@@ -1,8 +1,8 @@
-import React from "react";
-import { StyledPriceListComponent } from "./PriceList.styles";
-import ticketSvg from "../../../svg/ticket.svg";
+import React from 'react';
+import { StyledPriceListComponent } from './PriceList.styles';
+import ticketSvg from '../../../svg/ticket.svg';
 
-const PriceList = ({ svg, name, text, price }) => {
+const PriceList = () => {
   return (
     <StyledPriceListComponent>
       <img src={ticketSvg} alt="Icon of envelope" />

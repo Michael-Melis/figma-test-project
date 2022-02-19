@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   StyledMainHeaderDiv,
   StyledHeaderDiv,
@@ -7,12 +7,12 @@ import {
   StyledGetStartedSection,
   StyledUsedBy,
   StyledLogos,
-} from "./HeaderLeftSide.styles";
-import playSvg from "../../../svg/play.svg";
-import airbusSvg from "../../../svg/airbus.svg";
-import forbesSvg from "../../../svg/forbes.svg";
-import nascarSvg from "../../../svg/nascar.svg";
-import universitySvg from "../../../svg/university.svg";
+} from './HeaderLeftSide.styles';
+import playSvg from '../../../svg/play.svg';
+import airbusSvg from '../../../svg/airbus.svg';
+import forbesSvg from '../../../svg/forbes.svg';
+import nascarSvg from '../../../svg/nascar.svg';
+import universitySvg from '../../../svg/university.svg';
 
 const LeftSide = () => {
   return (
@@ -50,10 +50,7 @@ const LeftSide = () => {
           <img src={airbusSvg} alt="aribus logo" />
           <img src={forbesSvg} alt="forbes logo" />
           <img src={nascarSvg} alt="nascar logo" />
-          <img
-            src={universitySvg}
-            alt="University of southern california logo"
-          />
+          <img src={universitySvg} alt="University of southern california logo" />
         </StyledLogos>
       </StyledUsedBy>
       <div></div>

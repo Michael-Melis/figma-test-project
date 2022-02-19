@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledPriceListComponent = styled.div`
   display: flex;
@@ -30,7 +30,7 @@ export const StyledPriceListComponent = styled.div`
     background: #fff;
     color: #050505;
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     display: flex;
     @media only screen and (max-width: 1000px) {
@@ -42,18 +42,18 @@ export const StyledPriceListComponent = styled.div`
     margin-top: 1rem;
     font-size: 24px;
     color: #050505;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 
     margin-bottom: 1rem;
   }
   h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-bottom: 2rem;
   }
   p {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #65676b;
     margin-top: 2rem;

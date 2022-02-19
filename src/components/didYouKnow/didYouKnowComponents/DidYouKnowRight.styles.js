@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { StyledButton } from "./../../priceComponent/PriceComponent.styles";
+import styled from 'styled-components';
+import { StyledButton } from './../../priceComponent/PriceComponent.styles';
 
 export const StyledImgContainer = styled.div`
   position: relative;

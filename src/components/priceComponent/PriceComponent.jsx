@@ -1,6 +1,6 @@
-import React from "react";
-import PriceListLeft from "./priceList/PriceListLeft";
-import PriceListRight from "./priceList/PriceListRight";
+import React from 'react';
+import PriceListLeft from './priceList/PriceListLeft';
+import PriceListRight from './priceList/PriceListRight';
 import {
   StyledPriceComponent,
   StyledPriceLists,
@@ -8,7 +8,7 @@ import {
   StyledH1,
   StyledParagraph,
   StyledLeftPriceDiv,
-} from "./PriceComponent.styles";
+} from './PriceComponent.styles';
 
 const PriceComponent = () => {
   return (
@@ -21,8 +21,7 @@ const PriceComponent = () => {
         </StyledH1>
         <StyledParagraph>
           Creating your own knowledge center doesn’t have
-          <br /> to be an expensive feat. LiveAgent offers multiple pricing
-          plans that
+          <br /> to be an expensive feat. LiveAgent offers multiple pricing plans that
           <br /> cater to all support needs. Get our standalone
           <br /> knowledge base software with the least expensive plan or take
           <br /> a look at other plans that offer additional features.

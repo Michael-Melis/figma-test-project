@@ -1,6 +1,6 @@
-import React from "react";
-import ticketChatSvg from "../../../svg/ticketChat.svg";
-import { StyledPriceListComponentRight } from "./PriceListRight.styles";
+import React from 'react';
+import ticketChatSvg from '../../../svg/ticketChat.svg';
+import { StyledPriceListComponentRight } from './PriceListRight.styles';
 
 const PriceListRight = () => {
   return (

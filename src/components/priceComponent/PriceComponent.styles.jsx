@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledPriceComponent = styled.div`
   display: flex;
@@ -21,13 +21,13 @@ export const StyledPriceComponent = styled.div`
   h3 {
     font-size: 14px;
     color: #fa9531;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-bottom: 2rem;
   }
 `;
 export const StyledParagraph = styled.p`
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 2rem;
 `;
 
@@ -53,13 +53,13 @@ export const StyledButton = styled.button`
   padding: 1rem 3rem;
   cursor: pointer;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   border-radius: 6px;
 `;
 
 export const StyledH1 = styled.h1`
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 2rem;

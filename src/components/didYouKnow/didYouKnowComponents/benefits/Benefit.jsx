@@ -1,11 +1,11 @@
-import React from "react";
-import elementSvg from "../../../../svg/element.svg";
+import React from 'react';
+import elementSvg from '../../../../svg/element.svg';
 import {
   StyledImgBenefitContainer,
   StyleBenefitElementBg,
   StyledBenefitComponent,
   StyledBenefitInfo,
-} from "./Benefit.styles";
+} from './Benefit.styles';
 
 const Benefit = ({ percent, title, text }) => {
   return (

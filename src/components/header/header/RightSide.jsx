@@ -1,6 +1,6 @@
-import React from "react";
-import girlWithPhone from "../../../images/girlWithPhone.png";
-import chatPic from "../../../svg/chatPic.svg";
+import React from 'react';
+import girlWithPhone from '../../../images/girlWithPhone.png';
+import chatPic from '../../../svg/chatPic.svg';
 import {
   StyledConversation,
   StyledSupportMember,
@@ -10,8 +10,8 @@ import {
   StyledThirdDot,
   StyledSecondDot,
   StyledFirstDot,
-} from "./HeaderRightSide.styles";
-import { RiCheckDoubleFill } from "react-icons/ri";
+} from './HeaderRightSide.styles';
+import { RiCheckDoubleFill } from 'react-icons/ri';
 
 const RightSide = () => {
   return (
@@ -22,12 +22,12 @@ const RightSide = () => {
           <img src={chatPic} alt="user profile pic" />
 
           <p>
-            Hello, I'm John, how may I<br /> help you?
+            Hello, I`m John, how may I<br /> help you?
           </p>
         </StyledSupportMember>
         <StyledCustomer>
           <p>
-            I'd like to check my order <br />
+            I`d like to check my order <br />
             status . <RiCheckDoubleFill />
           </p>
         </StyledCustomer>

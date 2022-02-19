@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledImgBenefitContainer = styled.div`
   position: relative;
@@ -33,7 +33,7 @@ export const StyledBenefitComponent = styled.div`
     background: transparent;
     margin-right: 5rem;
     font-size: 50px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     background: -webkit-linear-gradient(left, #ffbd39, #fa9531);
     -webkit-background-clip: text;
@@ -43,7 +43,7 @@ export const StyledBenefitComponent = styled.div`
     }
   }
   h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
     background: white;
@@ -53,7 +53,7 @@ export const StyledBenefitComponent = styled.div`
   }
   p {
     background: white;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     @media only screen and (max-width: 600px) {
       font-size: 10px;
@@ -71,7 +71,7 @@ export const StyledBenefitInfo = styled.div`
   }
 
   h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
     @media only screen and (max-width: 600px) {
@@ -79,7 +79,7 @@ export const StyledBenefitInfo = styled.div`
     }
   }
   p {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     @media only screen and (max-width: 600px) {
       font-size: 10px;

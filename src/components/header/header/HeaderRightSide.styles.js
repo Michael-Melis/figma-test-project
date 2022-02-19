@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { GoPrimitiveDot } from "react-icons/go";
+import styled from 'styled-components';
+import { GoPrimitiveDot } from 'react-icons/go';
 
 export const StyledImgContainer = styled.div`
   margin-top: 98px;
@@ -50,7 +50,7 @@ export const StyledSupportMember = styled.div`
   align-items: center;
   p {
     color: #65676b;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 1rem;
@@ -72,7 +72,7 @@ export const StyledCustomer = styled.div`
     align-items: flex-end;
     margin-bottom: 1rem;
     margin-left: 12rem;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #fff;

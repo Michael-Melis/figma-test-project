@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledMainHeaderDiv = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ export const StyledHeaderDiv = styled.div`
   }
   h1 {
     font-size: 55px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 
     span {
@@ -37,7 +37,7 @@ export const StyledHeaderDiv = styled.div`
     }
   }
   p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 26px;
     @media only screen and (max-width: 600px) {
@@ -67,7 +67,7 @@ export const StyledGetStartedSection = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 1rem;
   button {
     background: -webkit-linear-gradient(left, #ffbd39, #fa9531);
@@ -87,7 +87,7 @@ export const StyledGetStartedSection = styled.div`
 `;
 export const StyledUsedBy = styled.div`
   h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #8c9097;

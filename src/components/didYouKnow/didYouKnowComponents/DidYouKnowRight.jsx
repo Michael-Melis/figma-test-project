@@ -1,12 +1,12 @@
-import React from "react";
-import didYouKnowSvg from "../../../svg/didYouKnowBg.svg";
+import React from 'react';
+import didYouKnowSvg from '../../../svg/didYouKnowBg.svg';
 import {
   StyledDidYouKnowBg,
   StyledDidYouKnowButton,
   StyledImgContainer,
   StyledDidYouKnowComponents,
-} from "./DidYouKnowRight.styles";
-import Benefit from "./benefits/Benefit";
+} from './DidYouKnowRight.styles';
+import Benefit from './benefits/Benefit';
 
 const DidYouKnowRight = () => {
   return (
@@ -29,9 +29,7 @@ const DidYouKnowRight = () => {
           text="Make more sales by keeping your customers loyal to your brand."
         />
 
-        <StyledDidYouKnowButton>
-          Make your business goals a reality
-        </StyledDidYouKnowButton>
+        <StyledDidYouKnowButton>Make your business goals a reality</StyledDidYouKnowButton>
       </StyledDidYouKnowComponents>
     </StyledImgContainer>
   );

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledDidYuKnowLeft = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ export const StyledDidYuKnowLeft = styled.div`
   h3 {
     font-size: 14px;
     color: #fa9531;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-bottom: 2rem;
     margin-left: 3rem;
@@ -23,7 +23,7 @@ export const StyledDidYuKnowLeft = styled.div`
     margin-left: 3rem;
   }
   p {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2rem;
     margin-left: 3rem;
   }
