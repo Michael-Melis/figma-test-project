@@ -4,7 +4,7 @@ export const StyledDidYuKnowLeft = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin-top: 3rem;
+  margin-top: 2rem;
   @media only screen and (max-width: 600px) {
     margin-right: 0;
     max-width: 400px;
